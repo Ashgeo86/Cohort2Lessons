@@ -17,12 +17,17 @@
 
 /**
  * Task 2
- * Difference between a string and a print line
+ * Difference between a string and a print line.
+ * A string is a data type that uses text
+ * A println can have any type of argument or data type passed through it, not just strings
  */
-
-"I love scala already"
-println "I love scala already"
 
 /**
  * Play in scala worksheet
  */
+
+"hamster" < "hamster"
+"hamster" == "hamster"
+1 + 2 * 3 / 4
+(1 + 2) * 3 / 4
+150 * 2 == 6 * 100 - 3 * 100
