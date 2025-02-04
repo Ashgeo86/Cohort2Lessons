@@ -19,8 +19,8 @@ total = total + apples
 var mugs = 5
 mugs = 6
 
-var cohort2 = 9
-cohort2 = 10
+var ash = 38
+ash = 40
 
 //Task 2
 /**
