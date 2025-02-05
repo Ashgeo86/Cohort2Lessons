@@ -5,8 +5,9 @@
  */
 
 // 1. Create value to store watermelons
-val melons: Int = 7
-val bag: Boolean = false
+val melons: Int = 5
+val bag: Boolean = true
+val price: Double = 1.397
 // 2. Use if/else statement to print out messages based on the criteria above
 // a) Doesn't need a bag
 // b) Needs a bag
@@ -14,11 +15,11 @@ val bag: Boolean = false
   if (melons <= 0) {
     s"This is an invalid number"
   } else if (melons <= 3) {
-    s"John has $melons watermelons, he can carry these in his arms."
+    f"John has $melons watermelons, he can carry these in his arms. The total price is ${price*melons}%.2f"
   } else if (melons <=5 && bag == true) {
-    s"John has $melons watermelons and has a bag to put them in"
+    f"John has $melons watermelons and has a bag to put them in. The total price is ${price*melons}%.2f"
   } else if (melons <=5 && bag == false) {
-    s"John has $melons watermelons but can't buy them as he doesn't have a bag."
+    f"John has $melons watermelons, but can't buy them as he doesn't have a bag. The total price is ${price*melons}%.2f"
   } else {
     s"$melons is too many watermelons to carry John!"
   }
@@ -26,4 +27,6 @@ val bag: Boolean = false
 // 3. Use string interpolation to add the number of watermelons.
 // Added above. Using S interpolation as doesn't need specific formatting.
 
-// 4.
+// 4. Added above.
+// 5. Added above.
+// 6. Added above. Using f interpolation as using decimals and flexible amounts.
