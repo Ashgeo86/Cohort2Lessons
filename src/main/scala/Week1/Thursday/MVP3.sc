@@ -16,7 +16,9 @@ val containsColour: Boolean = colourSeq.contains("orange")
 
 // Task 2 - write a function that maps each value in your List to true or false
 // depending on whether they are odd
-
+val oddNoList: List[Boolean] = numberList.map (
+  number => number % 2 != 0
+)
 
 // Task 3 - David has 2 dogs, 1 fish, 1 cat
 
