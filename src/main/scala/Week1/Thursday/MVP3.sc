@@ -2,6 +2,9 @@
 
 // a) Make a List of numbers
 val numberList: List[Int] = List(1,2,3,4,5)
+val tripledList: List[Int] = numberList.map {
+  number => number * 3
+}
 
 // b) Make a Seq of primary colours
 val colourSeq: Seq[String] = Seq("blue", "red", "yellow")
