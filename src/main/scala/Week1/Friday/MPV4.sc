@@ -26,3 +26,35 @@ def sumOfOddNumbers(numberInput: List[Int]): Int = {
   ofSquare.sum
 }
 sumOfOddNumbers(numbers)
+
+//Task 4 - Make a simple grading system to calculate a student's overall grade
+//Based on their scores in different subjects - Math, Science, English
+
+//System will - calculate the average score from a list of scores
+//Determine the grade based on the average score
+val MathScore: Int = 7
+val ScienceScore: Int = 5
+val EnglishScore: Int = 10
+
+def averageScore(Math: Int, Science: Int, English: Int): Double = {
+  math.round((Math + Science + English) / 3.0).toInt
+}
+averageScore(80,65,60)
+
+def gradeTotal(overallScore: Double): String = {
+  if (overallScore >= 90) {
+    "You got an A!"
+  } else if (overallScore >= 80) {
+    "You got a B!"
+  } else if (overallScore >= 70) {
+    "You got a C!"
+  } else if (overallScore >= 60) {
+    "You got a D"
+  } else "Sad, you got an E"
+}
+gradeTotal(82.0)
+
+def totalGrade: String = {
+  gradeTotal(averageScore(MathScore, ScienceScore, EnglishScore))
+}
+totalGrade
