@@ -9,7 +9,6 @@ object heroclass extends App {
   val cyclops = Heroes.apply("Cyclops", "Laser Eyes", 35, true)
 
   val copiedScarletWitch = scarletWitch.copy(power = "Mind Control")
-  val copiedThor = thor.copy(age: 1501)
   val copiedCyclops = cyclops.copy(isMutant = false)
 
 
