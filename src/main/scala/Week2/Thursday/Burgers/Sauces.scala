@@ -1,8 +1,14 @@
 package Week2.Thursday.Burgers
 
 trait Sauces {
-  trait Ketchup extends Sauces
-  trait Mayo extends Sauces
-  trait Relish extends Sauces
-  trait Mustard extends Sauces
+  def whereAmI: String = "Sauces"
 }
+
+trait Ketchup extends Sauces {
+  val spicy: Boolean = true
+}
+trait Mayo extends Sauces {
+  val garlic: Boolean = true
+}
+trait Relish extends Sauces
+trait Mustard extends Sauces
