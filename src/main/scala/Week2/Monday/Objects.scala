@@ -13,7 +13,7 @@ object Objects extends App {
   println(PrimaryColours.red.toUpperCase)
 
  object DaysOfWeek {
-   val Monday: String = "Monday"
+   val Monday: String = "Week4/Monday"
    val Tuesday: String = "Tuesday"
    val Wednesday: String = "Wednesday"
    val Thursday: String = "Thursday"
